@@ -92,7 +92,7 @@ This section has moved here:
 
 # environment set up
 
-Adding Material UI
+- Adding Material UI
 
 ```
 npm install @mui/material @mui/styled-engine-sc styled-components
@@ -103,3 +103,5 @@ Adding Icons
 ```
 npm install @mui/icons-material
 ```
+
+- this app uses the extension "Better Comments"
