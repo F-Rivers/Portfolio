@@ -1,3 +1,29 @@
+# Environment Set Up
+
+- Adding Material UI
+
+```
+npm install @mui/material @mui/styled-engine-sc styled-components
+```
+
+Adding Icons
+
+```
+npm install @mui/icons-material
+```
+
+- this app uses the extension "Better Comments"
+  <!-- ! Alerts -->
+  <!-- * Important info -->
+  <!-- ? Follow up -->
+  <!-- TODO -->
+
+- To show terminal output, use syntax:
+
+```js
+// ------> OUTPUT:
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with
@@ -89,17 +115,3 @@ This section has moved here:
 
 This section has moved here:
 [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# environment set up
-
-Adding Material UI
-
-```
-npm install @mui/material @mui/styled-engine-sc styled-components
-```
-
-Adding Icons
-
-```
-npm install @mui/icons-material
-```
