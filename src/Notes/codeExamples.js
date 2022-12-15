@@ -7,15 +7,14 @@ function recurse() {
 }
 
 recurse();
-// OUTPUT:
-// ------> RangeError: Maximum call stack size exceeded at recurse (/Users/franciscorivera/Desktop/portfolio/src/Notes/codeExamples.js:5:2)
+// ------>OUTPUT:
+// RangeError: Maximum call stack size exceeded at recurse (/Users/franciscorivera/Desktop/portfolio/src/Notes/codeExamples.js:5:2)
 //! -------------------------------------
 
 //* Example 1: Print Numbers
 
 // count down numbers to 1
 function countDown(number) {
-	// display the number
 	console.log(number);
 
 	// decrease the number value
@@ -28,3 +27,8 @@ function countDown(number) {
 }
 
 countDown(4);
+// ------> OUTPUT:
+// 4
+// 3
+// 2
+// 1

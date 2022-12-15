@@ -21,8 +21,7 @@ npm install @mui/icons-material
 - To show terminal output, use syntax:
 
 ```js
-// OUTPUT:
-// ------>
+// ------> OUTPUT:
 ```
 
 # Getting Started with Create React App
