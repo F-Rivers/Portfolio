@@ -59,7 +59,8 @@ if (num > 0) {
 // factorial(0) returns 3 * 2 * 1 * 1 = 6
 
 // ------> OUTPUT:
-// The factorial of 3 is 6
+// Factorial of 3 equals 6
+
 //! -------------------------------------
 //* Example: Size of stacks
 
