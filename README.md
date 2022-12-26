@@ -20,6 +20,20 @@ npm install @mui/material @mui/styled-engine-sc styled-components
 npm install @mui/icons-material
 ```
 
+- Adding Emotion/React
+
+```
+npm install @emotion/react
+```
+
+- Adding Emotion/Styled
+
+```
+npm i @emotion/styled
+```
+
+## About the App
+
 - this app uses the extension "Better Comments"
   <!-- ! Alerts -->
   <!-- * Important info -->
