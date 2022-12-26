@@ -1,3 +1,11 @@
+# Branch Set up
+
+- Main
+  - QA/Test
+  - Dev
+    - Frank
+    - Cracking-Notes
+
 # Environment Set Up
 
 - Adding Material UI
@@ -6,7 +14,7 @@
 npm install @mui/material @mui/styled-engine-sc styled-components
 ```
 
-Adding Icons
+- Adding Icons
 
 ```
 npm install @mui/icons-material
