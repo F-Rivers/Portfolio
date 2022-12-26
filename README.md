@@ -8,7 +8,7 @@
 
 # Environment Set Up
 
-## Adding Material UI
+- Adding Material UI
 
 ```
 npm install @mui/material @mui/styled-engine-sc styled-components
@@ -18,6 +18,18 @@ npm install @mui/material @mui/styled-engine-sc styled-components
 
 ```
 npm install @mui/icons-material
+```
+
+- Adding Emotion/React
+
+```
+npm install @emotion/react
+```
+
+- Adding Emotion/Styled
+
+```
+npm i @emotion/styled
 ```
 
 ## About the App
