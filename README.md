@@ -8,7 +8,7 @@
 
 # Environment Set Up
 
-- Adding Material UI
+## Adding Material UI
 
 ```
 npm install @mui/material @mui/styled-engine-sc styled-components
@@ -19,6 +19,8 @@ npm install @mui/material @mui/styled-engine-sc styled-components
 ```
 npm install @mui/icons-material
 ```
+
+## About the App
 
 - this app uses the extension "Better Comments"
   <!-- ! Alerts -->
