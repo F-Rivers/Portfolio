@@ -11,11 +11,12 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-// import AdbIcon from "@mui/icons-material/Adb";
 import LaptopMacIcon from "@mui/icons-material/LaptopMac";
 
+// ! need to create objects from arrays
 const pages = ["GitHub", "LinkedIn", "Projects"];
 const settings = ["About Me", "Contact Me", "FAQ"];
+//!------------------------------------
 
 function ResponsiveAppBar() {
 	const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -100,7 +101,7 @@ function ResponsiveAppBar() {
 						variant='h5'
 						noWrap
 						component='a'
-						href=''
+						href='/'
 						sx={{
 							mr: 2,
 							display: { xs: "flex", md: "none" },
