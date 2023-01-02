@@ -17,7 +17,7 @@
 # end
 
 
-def chanelisland 
+def adventureisland 
     def typewriter string
         string.each_char { |c| putc c ; sleep 0.05; $stdout.flush }
     end
@@ -173,4 +173,4 @@ def chanelisland
 
     end 
     
-chanelisland
+adventureisland 
