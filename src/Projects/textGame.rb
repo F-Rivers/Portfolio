@@ -1,13 +1,7 @@
 # * Process
-# cd into the ruby-challenges repository
-# Create a new branch: rspec-initials1-initials2 (ex. rspec-aw-sp)
-# Create a new directory mkdir rspec-student1-student2 (ex. rspec-austin-sarah)
-# cd into the directory you just created
-# touch a file called: rspec.rb
-# touch a file called: rspec_spec.rb
-# Add the dependencies by running $ gem install rspec in the terminal
-# Open the RSpec folder in a text editor
-# Code!
+# touch a file called: textGame.rb
+# Add the dependencies by running $ gem install textGame in the terminal
+# Open the textGame folder in a VS Code
 
 
 
