@@ -1,8 +1,11 @@
+# * Process
+# touch a file called: textGame.rb
+# Add the dependencies by running $ gem install textGame in the terminal
+# Open the textGame folder in a VS Code
+
+
+
 # make a parent with the game name 
-
-
-
-
 
 # def game_over 
 #     p "
