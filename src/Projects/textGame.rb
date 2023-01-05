@@ -6,6 +6,7 @@
 
 
 # make a parent with the game name 
+
 #! need to create a game over scenerio
 # def game_over 
 #     p "
@@ -18,7 +19,7 @@
 #     █▄▄▄▄▄▄▄█▄█ █▄▄█▄█   █▄█▄▄▄▄▄▄▄█  █▄▄▄▄▄▄▄█ █▄▄▄█ █▄▄▄▄▄▄▄█▄▄▄█  █▄█
 #      "
 # end
-
+#!-----------------------------------
 
 def adventureisland 
     def typewriter string
@@ -46,8 +47,7 @@ def adventureisland
                                 if caveleftdir == '1'
 
 
-
-#! need to implement island 
+#! need to implement island image
         #    ~        ~          ~            ~        ~
         #    ~                                  _.,-'=_.-'-._  ~        ~
         #            ~     ~           ~   ._.-'             '-._   ~
@@ -81,7 +81,7 @@ def adventureisland
         #        ~     ~   "._,-'.-'._    .-`-._;'-._.='._          .-'  ~
         #                       ~     '-_."      ~    ~   '-._:'=~_.'       ~
         #              ~     ~      ~        ~     ~        ~          ~    ~
-          
+#!----------------------------------
           
                                     p 'Looks like the map led to an old dingie on the otherside of the island that Captain Jack Sparrow used way back when you escaped!!!!'
                                 else 
