@@ -2,11 +2,11 @@
 # touch a file called: textGame.rb
 # Add the dependencies by running $ gem install textGame in the terminal
 # Open the textGame folder in a VS Code
-
+# to run the game: cd into the game file --> $ ruby textGame.rb
 
 
 # make a parent with the game name 
-
+#! need to create a game over scenerio
 # def game_over 
 #     p "
 #     ▄▄▄▄▄▄▄ ▄▄▄▄▄▄ ▄▄   ▄▄ ▄▄▄▄▄▄▄    ▄▄▄▄▄▄▄ ▄▄   ▄▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄   
@@ -27,7 +27,7 @@ def adventureisland
     p "What is your name brave adventurer?" 
     username = gets.chomp
 
-    p "☠️☠️☠️  #{username}, you are lost on a deserted island! Your Delta Airlines airplane had an engine blow out and you crash landed on an island. You wake up washed ashore and realize you are alone, the only survivor, with only the clothes on your back and a desire to survive.  ☠️☠️☠️"  
+    p "☠️☠️☠️  #{username}, you have woken up on a deserted island! Your SouthWest Airlines airplane had an engine blow out and you crash landed on an island. You wake up washed ashore and realize you are alone, the only survivor, with only the clothes on your back and a desire to survive.  ☠️☠️☠️"  
 
     p "#{username}, type 1 to walk around, type 2 to do nothing. Choose wisely" 
         descision1 = gets.chomp   
@@ -47,40 +47,40 @@ def adventureisland
 
 
 
-
-           ~        ~          ~            ~        ~
-           ~                                  _.,-'=_.-'-._  ~        ~
-                   ~     ~           ~   ._.-'             '-._   ~
-                                _.-':_.-'                      '-._   ~     ~
-                            _.-'                                   '-._.'-._
-             ~       .-'.-,'                                                '-.
-                     '-._                       /\   /\                    _.-'
-           ~             '-.           (o)(o)  /  \ /  \                ._'
-                     ~      '-._         (/      /\ (           _.'-._,-'
-                                '-._            /  \ )      _.-'   (o o)
-           ~     ) ( ) (    ~     .-'               (     .'       ))~((  ~
-                ) " ( " (        .-'                 )    '-._.,.            ~
-               )  "  ("  (       '-._               /           '-._  ~ 
-              )   "   (   ( ___      '-._          (                '.   ~
-                  "   "    |   | ~      .'          )                '-._
-            ---._-|--|--|--|--/     _.-'           /  (o)(o)           _.'   ~
-                 \ o  o  o  o/     '-._           /    (  )           '-._-'-.
-             ~~~~~~~~~~~~~~~~~#         '-._      (                        _.-'
-            ~          ~             ~     '-.    ) /\            _.-"._,'
-                            ~              _.'   / /\ /\         '.  ~    (o o)
-              (o o)              _.-'-._.-'     / /  \  \          '-._._ ))~((
-              ))~(( ~        _.-'              /                         '-. ~
-                          .-'              .-'('-._                        '-.
-           ~            _.'         _.-'-.-'~   ~  '.             _.'-.-'._  .'
-               .-'=_.'-'         .-'  ~   ~   _ _.-'          _.-'     ~   '.'
-            _.-'                 '-._,.-'._.-'    (o)(o)     '_   ~       ~
-          .'                                         \)         '-._   ~    ~
-          '-.- = .-'.     (o)(o)                                    '=._
-                    '._    (  )                                         '-.
-          LGB     ~    :_                                            _.-'.-' ~
-               ~     ~   "._,-'.-'._    .-`-._;'-._.='._          .-'  ~
-                              ~     '-_."      ~    ~   '-._:'=~_.'       ~
-                     ~     ~      ~        ~     ~        ~          ~    ~
+#! need to implement island 
+        #    ~        ~          ~            ~        ~
+        #    ~                                  _.,-'=_.-'-._  ~        ~
+        #            ~     ~           ~   ._.-'             '-._   ~
+        #                         _.-':_.-'                      '-._   ~     ~
+        #                     _.-'                                   '-._.'-._
+        #      ~       .-'.-,'                                                '-.
+        #              '-._                       /\   /\                    _.-'
+        #    ~             '-.           (o)(o)  /  \ /  \                ._'
+        #              ~      '-._         (/      /\ (           _.'-._,-'
+        #                         '-._            /  \ )      _.-'   (o o)
+        #    ~     ) ( ) (    ~     .-'               (     .'       ))~((  ~
+        #         ) " ( " (        .-'                 )    '-._.,.            ~
+        #        )  "  ("  (       '-._               /           '-._  ~ 
+        #       )   "   (   ( ___      '-._          (                '.   ~
+        #           "   "    |   | ~      .'          )                '-._
+        #     ---._-|--|--|--|--/     _.-'           /  (o)(o)           _.'   ~
+        #          \ o  o  o  o/     '-._           /    (  )           '-._-'-.
+        #      ~~~~~~~~~~~~~~~~~#         '-._      (                        _.-'
+        #     ~          ~             ~     '-.    ) /\            _.-"._,'
+        #                     ~              _.'   / /\ /\         '.  ~    (o o)
+        #       (o o)              _.-'-._.-'     / /  \  \          '-._._ ))~((
+        #       ))~(( ~        _.-'              /                         '-. ~
+        #                   .-'              .-'('-._                        '-.
+        #    ~            _.'         _.-'-.-'~   ~  '.             _.'-.-'._  .'
+        #        .-'=_.'-'         .-'  ~   ~   _ _.-'          _.-'     ~   '.'
+        #     _.-'                 '-._,.-'._.-'    (o)(o)     '_   ~       ~
+        #   .'                                         \)         '-._   ~    ~
+        #   '-.- = .-'.     (o)(o)                                    '=._
+        #             '._    (  )                                         '-.
+        #   LGB     ~    :_                                            _.-'.-' ~
+        #        ~     ~   "._,-'.-'._    .-`-._;'-._.='._          .-'  ~
+        #                       ~     '-_."      ~    ~   '-._:'=~_.'       ~
+        #              ~     ~      ~        ~     ~        ~          ~    ~
           
           
                                     p 'Looks like the map led to an old dingie on the otherside of the island that Captain Jack Sparrow used way back when you escaped!!!!'
