@@ -32,6 +32,12 @@ npm install @emotion/react
 npm i @emotion/styled
 ```
 
+- Adding test coverage command
+
+```
+npm i coverage
+```
+
 ## About the App
 
 - this app uses the extension "Better Comments"
