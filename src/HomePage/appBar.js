@@ -16,6 +16,15 @@ import LaptopMacIcon from "@mui/icons-material/LaptopMac";
 // ! need to create objects from arrays
 const pages = ["GitHub", "LinkedIn", "Projects"];
 const settings = ["About Me", "Contact Me", "FAQ"];
+
+// const navigation = [
+// 	{ name: "About", href: "#" },
+// 	{ name: "Shop", href: "#" },
+// 	{ name: "Jobs", href: "#" },
+// 	{ name: "Terms and Conditions", href: "#" },
+// 	add link back to top
+// 	add link to home
+// ];
 //!------------------------------------
 
 function ResponsiveAppBar() {
