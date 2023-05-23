@@ -1,8 +1,16 @@
 import { render, screen } from "@testing-library/react";
 import App from "../App";
+import * as React from "react";
+import ResponsiveAppBar from "../HomePage/appBar";
 
-test("renders learn react link", () => {
-	render(<App />);
-	const linkElement = screen.getByText(/learn react/i);
-	expect(linkElement).toBeInTheDocument();
+describe("App", () => {
+	it("renders appBar", () => {
+		render(<ResponsiveAppBar />);
+		screen.getAllByText("RIVERA");
+	});
+
+	it("has an alt text for the logo", () => {
+		render(<App />);
+		screen.getAllByAltText("logo");
+	});
 });
