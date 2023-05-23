@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import ResponsiveAppBar from "./HomePage/appBar.js";
+import * as React from "react";
 
 function App() {
 	return (
