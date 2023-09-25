@@ -2,6 +2,7 @@
 # touch a file called: textGame.rb
 # Add the dependencies by running $ gem install textGame in the terminal
 # Open the textGame folder in a VS Code
+
 # to run the game: cd into the game file --> $ ruby textGame.rb
 
 

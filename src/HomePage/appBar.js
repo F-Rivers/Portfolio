@@ -22,7 +22,7 @@ const settings = ["About Me", "Contact Me", "FAQ"];
 // 	{ name: "Shop", href: "#" },
 // 	{ name: "Jobs", href: "#" },
 // 	{ name: "Terms and Conditions", href: "#" },
-// 	add link back to top
+// 	add link at bottom to go back to top
 // 	add link to home
 // ];
 //!------------------------------------
