@@ -18,9 +18,9 @@ const pages = ["GitHub", "LinkedIn", "Projects"];
 const settings = ["About Me", "Contact Me", "FAQ"];
 
 // const navigation = [
-// 	{ name: "About", href: "#" },
-// 	{ name: "Shop", href: "#" },
-// 	{ name: "Jobs", href: "#" },
+// 	{ name: "GitHub", href: "#" },
+// 	{ name: "LinkedIn", href: "#" },
+// 	{ name: "Projects", href: "#" },
 // 	{ name: "Terms and Conditions", href: "#" },
 // 	add link at bottom to go back to top
 // 	add link to home
